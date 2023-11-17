@@ -1,0 +1,109 @@
+@keyframes pulse{
+	50% { transform: scale(0.85);}
+	100% { transform: scale(1);}
+}
+body{
+	background-image: url("background2.png");
+	font-family: Trebuchet MS;
+	color: white;
+	background-repeat: no-repeat;
+	background-position: 50% 5%;
+	min-width: 1000px;
+}
+#main{
+	margin-top: -20px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 750px;
+}
+
+h1,h2{
+	text-align:center;
+}
+#whole{
+	width: 80%;
+	margin: auto;
+	
+}
+#left{
+	float: left;
+	width: 55%;
+	
+}
+#right{
+	float: left;
+	margin: auto;
+	margin-top: 30px;
+
+}
+ul{
+	list-style-type: none;
+	margin-left: 0px;
+	width: 450px;
+	
+}
+li{
+	background-color: #01057e;
+	background-image: linear-gradient( #023f67, #02113c, #023f67);
+	border: 2px white solid;
+	width: 300px;
+	text-align:center;
+	margin-bottom: 70px;
+	padding: 15px;
+	border-radius: 15px;
+	font-size: 24px;
+	
+	display:block;
+	font-weight: bold;
+}
+span{
+	color:gold;
+}
+.question{
+	background-color: #01057e;
+	background-image: linear-gradient( #023f67, #02113c, #023f67);
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	padding: 15px;
+}
+.money{
+	background-image: linear-gradient(gold,gold, yellow,gold,gold);
+	background-color: gold;
+	color:black;
+	width: 250px;
+	margin: auto;
+	display:block;
+	border-radius: 10px 5px;
+	border: 2px solid white;
+	animation: pulse 4s ease-in-out infinite;
+}
+label{
+	margin: 0px 20px;
+	width: 100px;
+	border: 2px solid gold;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-image: linear-gradient( #023f67, #02113c, #023f67);
+}
+#submit{
+	font-size: 20px;
+	margin-top:40px;
+	background-color: #01057e;
+	background-image: linear-gradient( #023f67, #02113c, #023f67);
+	border: 1px solid gold;
+	border-radius: 7px;
+	color: white;
+	margin-left: 120px;
+	width: 150px;
+	padding: 5px;
+}
+#submit:hover{
+	color: gray;
+}
+.logo{
+	margin:auto;
+	display: block;
+	width: 200%;
+	animation: pulse 4s ease-in-out infinite;
+}
