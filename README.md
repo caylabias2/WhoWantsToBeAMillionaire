@@ -1,0 +1,1 @@
+Web application that simulates the famous TV Game Show, "Who Wants to Be A Millionaire?". This web application was developed using PHP, HTML, and CSS. PHP was used to create sessions, maintain a leaderboard system, and a login/logout system implemented with a text file. 
